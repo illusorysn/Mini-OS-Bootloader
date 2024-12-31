@@ -4,7 +4,7 @@ Execution steps:
 nasm -f bin bootloader.asm -o bootloader.bin  
 nasm -f bin stage2.asm -o stage2.bin  
   
-//Create a blank disk image  
+**Create a blank disk image**
 dd if=/dev/zero of=disk.img bs=512 count=100  
   
 //Writing the Bootloader  
